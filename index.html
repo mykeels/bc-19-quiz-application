@@ -6,13 +6,23 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
 </head>
-<body ng-app="quiz-app">
-
-
-</body>
+<body ng-app="quiz-app" ng-controller="QuizCtrl">
 
 <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
 <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
 <script src="app.js"></script>
-<h1>Hello, niggas.</h1>
+
+
+    <div>
+    <h1>Hello!</h1>
+    <p>Welcome to the Quiz App. </p>
+    </div>
+
+    <div ng-controller="quiz-ctrl">
+        <p>We have the following quizzes available for you to take. {{quiz}}</p>
+    </div>
+
+
+</body>
+
 </html>

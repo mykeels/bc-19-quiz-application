@@ -1,7 +1,7 @@
 {
   "quiz": {
     "isTimed": "true",
-    "Question": [
+    "questions": [
       {
         "text": "Is hot water hot?",
         "option": [

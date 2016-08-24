@@ -6,25 +6,19 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
 </head>
-<body ng-app="quiz-app" ng-controller="QuizCtrl">
-
-<script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
-<script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
-<script src="app.js"></script>
-
+<body ng-app="quiz-app">
 
     <div ng-controller="QuizCtrl">
     <h1>Hello!</h1>
     <p>Welcome to the Quiz App. </p>
-    <select class="quiz-select" ng-model="selectedQuiz" ng-options="quiz as quiz.title for quiz in quizzes">
-        <!--<option value="volvo">Volvo</option>-->
-        <!--<option value="saab">Saab</option>-->
-        <!--<option value="mercedes">Mercedes</option>-->
-        <!--<option value="audi">Audi</option>-->
-    </select>
+    <select class="quiz-select" ng-model="selectedQuiz" ng-options="quiz as quiz.title for quiz in quizzes"></select>
     <div>
         <p>{{selectedQuiz.title}}</p>
     </div>
     </div>
+
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

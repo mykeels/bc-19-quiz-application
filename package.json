@@ -1,0 +1,28 @@
+{
+  "name": "quiz-application",
+  "version": "1.0.0",
+  "description": "Application for taking quizzes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allengblack/bc-19-quiz-application.git"
+  },
+  "keywords": [
+    "test",
+    "quiz"
+  ],
+  "author": "Allen Gbolahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allengblack/bc-19-quiz-application/issues"
+  },
+  "homepage": "https://github.com/allengblack/bc-19-quiz-application#readme",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-bootstrap": "^2.1.2",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,10 +1,10 @@
 
-function errorHandler (err, obj) {
+function errorhandler (err, obj) {
     //a global error handler
     console.error(err, obj);
 }
 
-var app = angular.module("quiz-app", [ui.bootstrap]);
+var app = angular.module("quiz-app", []);
 
 app.controller("QuizCtrl", function ($scope, $sce, $http) {
   //$scope represents your model ... everything that could be bound to the view should be in your $scope variable

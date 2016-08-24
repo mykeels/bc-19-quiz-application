@@ -5,16 +5,33 @@
     <title>Quiz Application</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" type="text/css" />
+    <style>
+        .quiz-logo {
+            width: 25%;
+            height: auto;
+        }
+    </style>
 </head>
 <body ng-app="quiz-app">
 
-    <div ng-controller="QuizCtrl">
-    <h1>Hello!</h1>
-    <p>Welcome to the Quiz App. </p>
-    <select class="quiz-select" ng-model="selectedQuiz" ng-options="quiz as quiz.title for quiz in quizzes"></select>
-    <div>
-        <p>{{selectedQuiz.title}}</p>
-    </div>
+    <div ng-controller="QuizCtrl" class="container">
+        <h1>Hello!</h1>
+        <p>
+            Welcome to the Quiz App. 
+            <select class="quiz-select" ng-model="selectedQuiz" ng-options="quiz as quiz.title for quiz in quizzes" ng-change="selectQuiz()"></select>
+        </p>
+        
+        <div>
+            <p>
+                <label>Title:</label>
+                {{selectedQuiz.title}}
+            </p>
+            <p>
+                <label>Description:</label>
+                {{selectedQuiz.description}}
+            </p>
+            <img ng-src="{{selectedQuiz.logo}}" class="img img-responsive quiz-logo" />
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>

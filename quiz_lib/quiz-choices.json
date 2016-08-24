@@ -1,5 +1,20 @@
 [
-  { "title": "World War II", "description": "How much do you know about the events leading to, during and after the rise of Nazi Germany?", "logo": "http://i2.kym-cdn.com/entries/icons/original/000/008/940/world-war-2.png", "dataUrl": ""},
-  { "title": "Fall of the Roman Empire", "description": "Senatus Populusque Romanus!", "logo": "http://www.proprofs.com/quiz-school/topic_images/p1a5j65ha8r9umci11m9frg1pl3.jpg", "dataUrl": ""},
-  { "title": "Greek Mythology", "description": "Zeus, Hades, Poseidon!!!", "logo": "http://www.igreekmythology.com/images/GreekMyths.jpg", "dataUrl": ""}
+  {
+    "title": "World War II",
+    "description": "How much do you know about the events leading to, during and after the rise of Nazi Germany?",
+    "logo": "http://i2.kym-cdn.com/entries/icons/original/000/008/940/world-war-2.png",
+    "dataUrl": "quiz_lib/world-war-quiz.json"
+  },
+  {
+    "title": "Fall of the Roman Empire",
+    "description": "Senatus Populusque Romanus!",
+    "logo": "http://www.proprofs.com/quiz-school/topic_images/p1a5j65ha8r9umci11m9frg1pl3.jpg",
+    "dataUrl": "quiz_lib/roman-quiz.json"
+  },
+  {
+    "title": "Greek Mythology",
+    "description": "Zeus, Hades, Poseidon!!!",
+    "logo": "http://www.igreekmythology.com/images/GreekMyths.jpg",
+    "dataUrl": "quiz_lib/greek-quiz.json"
+  }
 ]

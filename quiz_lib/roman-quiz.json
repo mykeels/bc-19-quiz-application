@@ -1,0 +1,41 @@
+{
+  "quiz": {
+    "isTimed": "true",
+    "questions": [
+      {
+        "text": "Is hot water hot?",
+        "option": [
+          {
+            "text": "yes",
+            "isCorrect": "true"
+          },
+          {
+            "text": "no",
+            "isCorrect": "false"
+          },
+          {
+            "text": "duh",
+            "isCorrect": "false"
+          }
+        ]
+      },
+      {
+        "text": "Is ice cold?",
+        "option": [
+          {
+            "text": "yes",
+            "isCorrect": "true"
+          },
+          {
+            "text": "no",
+            "isCorrect": "false"
+          },
+          {
+            "text": "duh",
+            "isCorrect": "false"
+          }
+        ]
+      }
+    ]
+  }
+}

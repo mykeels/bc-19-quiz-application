@@ -18,6 +18,14 @@
     <p>Welcome to the Quiz App. </p>
     </div>
 
+<select class="quiz-select">
+    <!--<option value="volvo">Volvo</option>-->
+    <!--<option value="saab">Saab</option>-->
+    <!--<option value="mercedes">Mercedes</option>-->
+    <!--<option value="audi">Audi</option>-->
+    {{quiz-choices}}
+</select>
+
     <div ng-controller="quiz-ctrl">
         <p>We have the following quizzes available for you to take. {{quiz}}</p>
     </div>
